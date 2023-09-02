@@ -46,6 +46,11 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #37bfbd;
+    transition: ease-in-out 0.5s;
+}
+
 main{
     color: #FFFF;
 }
@@ -86,6 +91,11 @@ main{
 .contactIcons{
     display: flex;
     gap: 2rem;
+}
+
+.contactIconsImg:hover {
+    width: 3.5rem;
+    transition: ease-in-out 0.2s;
 }
 
 .contactIconsImg{
@@ -182,7 +192,12 @@ main{
     background-color: #FFFF;
     border-radius: 0.3rem;
     padding: 0.2rem;
-    
+
+}
+
+.projectsCardContentLinksBox:hover{
+    background-color: #37bfbd;
+    transition:ease-in-out 0.5s ;
 }
 
 .projectsCardContentLinksIcon{
@@ -232,6 +247,7 @@ main{
     padding-top: 2rem;
 }
 
+
 .contactIconsImgBottom{
     width: 2rem;
 }
@@ -275,7 +291,14 @@ footer{
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1370px){
+    .projectsCardContentImg {
+            width: 32rem;
+    }
+}
+
+
+@media (max-width: 1115px) {
     header {
         padding: 0 4rem;
     }
