@@ -93,11 +93,6 @@ main{
     gap: 2rem;
 }
 
-.contactIconsImg:hover {
-    width: 3.5rem;
-    transition: ease-in-out 0.2s;
-}
-
 .contactIconsImg{
     width: 3rem;
 }
